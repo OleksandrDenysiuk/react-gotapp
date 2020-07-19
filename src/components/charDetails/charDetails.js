@@ -3,6 +3,7 @@ import './charDetails.css';
 export default class CharDetails extends Component {
 
     render() {
+        
         return (
             <div className="char-details rounded">
                 <h4>John Snow</h4>
