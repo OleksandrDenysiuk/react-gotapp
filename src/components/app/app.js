@@ -4,9 +4,13 @@ import Header from '../header';
 import RandomChar from '../randomChar';
 import CharecterPage from '../characterPage';
 import ErrorMessage from '../errorMessage';
-
+import GotService from '../../services/gotService';
 
 export default class App extends Component {
+
+    gotService = new GotService();
+
+
     state = {
         randomCharVisible: true,
         selectedChar: null,
